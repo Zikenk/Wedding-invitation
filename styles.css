@@ -2,11 +2,17 @@
   font-family: AlexBrush;
   src: url(alex-brush/AlexBrush-Regular.ttf);
 }
+
 body {
-  text-align: center;
   font-family: AlexBrush;
+  background-image: url("bckgrn-img.jpg");
+  background-size: cover;
 }
 
 .page-img {
-  background-image:url("bckgrn-img.jpg");
-    }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
